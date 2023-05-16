@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.6" class="java.beans.XMLDecoder">
+ <object class="sprint2.Server" id="Server0">
+  <void id="Database0" property="DB">
+   <void property="groupIDs">
+    <void method="add">
+     <int>1</int>
+    </void>
+    <void method="add">
+     <int>2</int>
+    </void>
+    <void method="add">
+     <int>3</int>
+    </void>
+   </void>
+   <void property="members">
+    <void method="add">
+     <object class="sprint1.User" id="User0">
+      <void class="sprint1.User" method="getField">
+       <string>UserName</string>
+       <void method="set">
+        <object idref="User0"/>
+        <string>Glahens</string>
+       </void>
+      </void>
+      <void property="password">
+       <string>CSC</string>
+      </void>
+      <void property="userId">
+       <int>1</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="sprint1.User" id="User1">
+      <void class="sprint1.User" method="getField">
+       <string>UserName</string>
+       <void method="set">
+        <object idref="User1"/>
+        <string>Christian</string>
+       </void>
+      </void>
+      <void property="password">
+       <string>BIO</string>
+      </void>
+      <void property="userId">
+       <int>2</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="sprint1.User" id="User2">
+      <void class="sprint1.User" method="getField">
+       <string>UserName</string>
+       <void method="set">
+        <object idref="User2"/>
+        <string>Steve</string>
+       </void>
+      </void>
+      <void property="password">
+       <string>123</string>
+      </void>
+      <void property="userId">
+       <int>3</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="sprint1.User" id="User3">
+      <void class="sprint1.User" method="getField">
+       <string>UserName</string>
+       <void method="set">
+        <object idref="User3"/>
+        <string>Preston</string>
+       </void>
+      </void>
+      <void property="password">
+       <string>Life</string>
+      </void>
+      <void property="userId">
+       <int>4</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="sprint1.User" id="User4">
+      <void class="sprint1.User" method="getField">
+       <string>UserName</string>
+       <void method="set">
+        <object idref="User4"/>
+        <string>Ivan</string>
+       </void>
+      </void>
+      <void property="password">
+       <string>999</string>
+      </void>
+      <void property="userId">
+       <int>5</int>
+      </void>
+     </object>
+    </void>
+   </void>
+  </void>
+  <void property="actives">
+   <void method="add">
+    <int>1</int>
+   </void>
+   <void method="add">
+    <int>2</int>
+   </void>
+  </void>
+  <void property="groupIDs">
+   <void method="clear"/>
+  </void>
+ </object>
+</java>
